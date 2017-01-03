@@ -1,0 +1,9 @@
+[user]
+	email = 349047303@qq.com
+	name = amy
+[core]
+	editor = vim
+[alias]
+	lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+	co = checkout
