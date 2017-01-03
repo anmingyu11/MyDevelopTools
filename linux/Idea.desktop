@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Idea
+Comment=IdeaIDE
+Exec=/home/amy/develop/ide/idea-IC-163.10154.41/bin/idea.sh
+Icon=/home/amy/develop/ide/idea-IC-163.10154.41/bin/idea.png
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Application;
