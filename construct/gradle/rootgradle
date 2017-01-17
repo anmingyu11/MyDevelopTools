@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    ext {
+        buildToolsVersion = "24.0.1"
+        compileSdkVersion = 24
+        minSdkVersion = 19
+        targetSdkVersion = 19
+
+        downloadLibVersionName = "1.0.0"
+        downloadLibVersionCode = 1
+
+        appVersionName = "1.0.0-beta"
+        appVersionCode = 1
+
+        /**
+         * 是否用freeLine 编译，如果不是，用gradle工具编译
+         * return true use freeLine to compile the project, otherwise use default android gradle tool.
+         */
+        isCompiledByFreeLine = true
+    }
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.1.16'//资源混淆插件
+        classpath 'com.antfortune.freeline:gradle:0.8.4'//阿里增量编译插件
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
