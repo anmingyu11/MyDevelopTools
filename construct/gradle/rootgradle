@@ -10,7 +10,7 @@ buildscript {
         downloadLibVersionName = "1.0.0"
         downloadLibVersionCode = 1
 
-        appVersionName = "1.0.0-beta"
+        appVersionName = "1.0.0-beta"//主版本号.福版本号.补丁号.
         appVersionCode = 1
 
         /**
